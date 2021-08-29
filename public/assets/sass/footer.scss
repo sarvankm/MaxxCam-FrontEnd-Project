@@ -1,0 +1,44 @@
+footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+    background: #1F1F1F;
+    position: relative;
+    h3{
+        color: #E3E3E3;
+    }
+    p{
+        color: #E3E3E3;
+    }
+    .contactus{
+        p{
+            font-size: 15px;
+            line-height: 1.7;
+            
+        }
+        .socialmedia{
+            display: flex;
+            justify-content: space-around;
+            i{
+                font-size: 20px;
+                color: #E3E3E3;
+            }
+        }
+    }
+    span{
+        color: #F0AE00;
+    }
+    .flex{
+        display: flex;
+        font-size: 18px;
+        margin-top: 2px;
+    }
+    .developer{
+        position: absolute;
+        bottom: 10%;
+        right: 2%;
+    }
+}

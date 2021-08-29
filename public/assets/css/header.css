@@ -1,0 +1,62 @@
+header {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+  header .firstpartheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    padding-right: 30px; }
+    header .firstpartheader img {
+      width: 69px;
+      height: 61px; }
+    header .firstpartheader .logopart {
+      display: flex; }
+      header .firstpartheader .logopart .textpart {
+        margin-left: 10px; }
+        header .firstpartheader .logopart .textpart .shopname {
+          display: flex;
+          font-size: 35px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 11px; }
+          header .firstpartheader .logopart .textpart .shopname .cam {
+            color: #f0ae00; }
+        header .firstpartheader .logopart .textpart p {
+          font-size: 20px;
+          font-weight: lighter;
+          margin-top: 7px; }
+    header .firstpartheader .login-basket {
+      display: flex;
+      align-items: center;
+      color: #f0ae00; }
+      header .firstpartheader .login-basket span {
+        font-size: 20px;
+        margin-top: -10px;
+        margin-right: 10px;
+        padding: 2px;
+        cursor: pointer; }
+      header .firstpartheader .login-basket i {
+        font-size: 30px; }
+      header .firstpartheader .login-basket p {
+        margin-left: -22px;
+        margin-top: -18px;
+        color: white;
+        z-index: 1;
+        font-size: 12px; }
+  header .secondpartheader {
+    display: flex;
+    justify-content: space-between;
+    background: #1F1F1F;
+    color: #D8D8D8; }
+    header .secondpartheader .navigation {
+      display: flex; }
+      header .secondpartheader .navigation p {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-bottom: 0; }
+    header .secondpartheader .call {
+      display: flex;
+      align-items: center;
+      padding-right: 10px; }
+      header .secondpartheader .call h3 {
+        font-weight: lighter; }
